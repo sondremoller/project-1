@@ -22,6 +22,28 @@ p {
     list-style-type: none;
  }
 
+ .flex {
+    display: flex;
+ }
+
+ .flex-1 {
+    flex: 1;
+ }
+
+ .row{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+
+ }
+
+.text__purple {
+    color: #6030b1;
+}
+
+h1 {
+    font-size: 36px;
+}
 
 nav {
     height: 100px;
@@ -57,4 +79,51 @@ nav {
 .nav__link--anchor-primary:hover {
     background-color: #5d3eff;
 
+}
+
+.personal__logo {
+    font-size: 24px;
+    color: #6030b1;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+#about-me {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.about__me--info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.selfie {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    margin-bottom: 28px;
+}
+
+.about__selfie {
+    width: 100%;
+    transform: scale(1.5);
+    margin-bottom: 8 px;
+}
+.about__me-titel {
+     margin-bottom: 16px;
+}
+.about__me-p {
+    font-size: 20px;
+    margin-top: 20px;
 }
